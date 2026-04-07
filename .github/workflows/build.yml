@@ -1,0 +1,30 @@
+name: Build & Test
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        build_type: [Debug, Release]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Configure CMake
+      run: cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+
+    - name: Build
+      run: cmake --build build --config ${{ matrix.build_type }}
+
+    - name: Run Tests
+      run: |
+        cd build
+        ctest --output-on-failure --config ${{ matrix.build_type }}

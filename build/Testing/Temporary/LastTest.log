@@ -1,0 +1,808 @@
+Start testing: Apr 07 10:28 CEST
+----------------------------------------------------------
+1/28 Testing: CRC16Test.EmptyData
+1/28 Test: CRC16Test.EmptyData
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=CRC16Test.EmptyData" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"CRC16Test.EmptyData" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CRC16Test.EmptyData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC16Test
+[ RUN      ] CRC16Test.EmptyData
+[       OK ] CRC16Test.EmptyData (0 ms)
+[----------] 1 test from CRC16Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"CRC16Test.EmptyData" end time: Apr 07 10:28 CEST
+"CRC16Test.EmptyData" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/28 Testing: CRC16Test.StandardTestVector
+2/28 Test: CRC16Test.StandardTestVector
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=CRC16Test.StandardTestVector" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"CRC16Test.StandardTestVector" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CRC16Test.StandardTestVector
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC16Test
+[ RUN      ] CRC16Test.StandardTestVector
+[       OK ] CRC16Test.StandardTestVector (0 ms)
+[----------] 1 test from CRC16Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"CRC16Test.StandardTestVector" end time: Apr 07 10:28 CEST
+"CRC16Test.StandardTestVector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/28 Testing: CRC16Test.SingleByte
+3/28 Test: CRC16Test.SingleByte
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=CRC16Test.SingleByte" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"CRC16Test.SingleByte" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CRC16Test.SingleByte
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC16Test
+[ RUN      ] CRC16Test.SingleByte
+[       OK ] CRC16Test.SingleByte (0 ms)
+[----------] 1 test from CRC16Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"CRC16Test.SingleByte" end time: Apr 07 10:28 CEST
+"CRC16Test.SingleByte" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/28 Testing: CRC16Test.AllOnes
+4/28 Test: CRC16Test.AllOnes
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=CRC16Test.AllOnes" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"CRC16Test.AllOnes" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CRC16Test.AllOnes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC16Test
+[ RUN      ] CRC16Test.AllOnes
+[       OK ] CRC16Test.AllOnes (0 ms)
+[----------] 1 test from CRC16Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"CRC16Test.AllOnes" end time: Apr 07 10:28 CEST
+"CRC16Test.AllOnes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/28 Testing: CRC16Test.PointerInterface
+5/28 Test: CRC16Test.PointerInterface
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=CRC16Test.PointerInterface" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"CRC16Test.PointerInterface" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CRC16Test.PointerInterface
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC16Test
+[ RUN      ] CRC16Test.PointerInterface
+[       OK ] CRC16Test.PointerInterface (0 ms)
+[----------] 1 test from CRC16Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"CRC16Test.PointerInterface" end time: Apr 07 10:28 CEST
+"CRC16Test.PointerInterface" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/28 Testing: CRC16Test.DifferentDataDifferentCRC
+6/28 Test: CRC16Test.DifferentDataDifferentCRC
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=CRC16Test.DifferentDataDifferentCRC" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"CRC16Test.DifferentDataDifferentCRC" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CRC16Test.DifferentDataDifferentCRC
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CRC16Test
+[ RUN      ] CRC16Test.DifferentDataDifferentCRC
+[       OK ] CRC16Test.DifferentDataDifferentCRC (0 ms)
+[----------] 1 test from CRC16Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"CRC16Test.DifferentDataDifferentCRC" end time: Apr 07 10:28 CEST
+"CRC16Test.DifferentDataDifferentCRC" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/28 Testing: PacketTest.EncodeDecodeRoundtrip_NoPayload
+7/28 Test: PacketTest.EncodeDecodeRoundtrip_NoPayload
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.EncodeDecodeRoundtrip_NoPayload" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.EncodeDecodeRoundtrip_NoPayload" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.EncodeDecodeRoundtrip_NoPayload
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.EncodeDecodeRoundtrip_NoPayload
+[       OK ] PacketTest.EncodeDecodeRoundtrip_NoPayload (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.EncodeDecodeRoundtrip_NoPayload" end time: Apr 07 10:28 CEST
+"PacketTest.EncodeDecodeRoundtrip_NoPayload" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/28 Testing: PacketTest.EncodeDecodeRoundtrip_WithPayload
+8/28 Test: PacketTest.EncodeDecodeRoundtrip_WithPayload
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.EncodeDecodeRoundtrip_WithPayload" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.EncodeDecodeRoundtrip_WithPayload" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.EncodeDecodeRoundtrip_WithPayload
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.EncodeDecodeRoundtrip_WithPayload
+[       OK ] PacketTest.EncodeDecodeRoundtrip_WithPayload (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.EncodeDecodeRoundtrip_WithPayload" end time: Apr 07 10:28 CEST
+"PacketTest.EncodeDecodeRoundtrip_WithPayload" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/28 Testing: PacketTest.DecodeFailsOnTooShortFrame
+9/28 Test: PacketTest.DecodeFailsOnTooShortFrame
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.DecodeFailsOnTooShortFrame" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.DecodeFailsOnTooShortFrame" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.DecodeFailsOnTooShortFrame
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.DecodeFailsOnTooShortFrame
+10:28:58.079 [WARN ] [PKT] Frame too short: 3 bytes
+[       OK ] PacketTest.DecodeFailsOnTooShortFrame (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.DecodeFailsOnTooShortFrame" end time: Apr 07 10:28 CEST
+"PacketTest.DecodeFailsOnTooShortFrame" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/28 Testing: PacketTest.DecodeFailsOnInvalidHeader
+10/28 Test: PacketTest.DecodeFailsOnInvalidHeader
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.DecodeFailsOnInvalidHeader" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.DecodeFailsOnInvalidHeader" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.DecodeFailsOnInvalidHeader
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.DecodeFailsOnInvalidHeader
+10:28:58.105 [WARN ] [PKT] Invalid header
+[       OK ] PacketTest.DecodeFailsOnInvalidHeader (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.DecodeFailsOnInvalidHeader" end time: Apr 07 10:28 CEST
+"PacketTest.DecodeFailsOnInvalidHeader" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/28 Testing: PacketTest.DecodeFailsOnCRCMismatch
+11/28 Test: PacketTest.DecodeFailsOnCRCMismatch
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.DecodeFailsOnCRCMismatch" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.DecodeFailsOnCRCMismatch" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.DecodeFailsOnCRCMismatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.DecodeFailsOnCRCMismatch
+10:28:58.132 [WARN ] [PKT] CRC mismatch: received 0x8113 computed 0x81ec
+[       OK ] PacketTest.DecodeFailsOnCRCMismatch (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.DecodeFailsOnCRCMismatch" end time: Apr 07 10:28 CEST
+"PacketTest.DecodeFailsOnCRCMismatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/28 Testing: PacketTest.DecodeFailsOnDataCorruption
+12/28 Test: PacketTest.DecodeFailsOnDataCorruption
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.DecodeFailsOnDataCorruption" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.DecodeFailsOnDataCorruption" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.DecodeFailsOnDataCorruption
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.DecodeFailsOnDataCorruption
+10:28:58.158 [WARN ] [PKT] CRC mismatch: received 0x8be1 computed 0xb8d0
+[       OK ] PacketTest.DecodeFailsOnDataCorruption (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.DecodeFailsOnDataCorruption" end time: Apr 07 10:28 CEST
+"PacketTest.DecodeFailsOnDataCorruption" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/28 Testing: PacketTest.EncodedFrameHasCorrectHeader
+13/28 Test: PacketTest.EncodedFrameHasCorrectHeader
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.EncodedFrameHasCorrectHeader" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.EncodedFrameHasCorrectHeader" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.EncodedFrameHasCorrectHeader
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.EncodedFrameHasCorrectHeader
+[       OK ] PacketTest.EncodedFrameHasCorrectHeader (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.EncodedFrameHasCorrectHeader" end time: Apr 07 10:28 CEST
+"PacketTest.EncodedFrameHasCorrectHeader" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/28 Testing: PacketTest.CommandNameReturnsCorrectStrings
+14/28 Test: PacketTest.CommandNameReturnsCorrectStrings
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=PacketTest.CommandNameReturnsCorrectStrings" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"PacketTest.CommandNameReturnsCorrectStrings" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PacketTest.CommandNameReturnsCorrectStrings
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PacketTest
+[ RUN      ] PacketTest.CommandNameReturnsCorrectStrings
+[       OK ] PacketTest.CommandNameReturnsCorrectStrings (0 ms)
+[----------] 1 test from PacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PacketTest.CommandNameReturnsCorrectStrings" end time: Apr 07 10:28 CEST
+"PacketTest.CommandNameReturnsCorrectStrings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/28 Testing: StateMachineTest.StartsInBootState
+15/28 Test: StateMachineTest.StartsInBootState
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.StartsInBootState" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.StartsInBootState" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.StartsInBootState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.StartsInBootState
+10:28:58.235 [INFO ] [SM] State machine initialized in BOOT state
+[       OK ] StateMachineTest.StartsInBootState (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.StartsInBootState" end time: Apr 07 10:28 CEST
+"StateMachineTest.StartsInBootState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/28 Testing: StateMachineTest.BootToIdle
+16/28 Test: StateMachineTest.BootToIdle
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.BootToIdle" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.BootToIdle" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.BootToIdle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.BootToIdle
+10:28:58.264 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.264 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+[       OK ] StateMachineTest.BootToIdle (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.BootToIdle" end time: Apr 07 10:28 CEST
+"StateMachineTest.BootToIdle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/28 Testing: StateMachineTest.IdleToActive
+17/28 Test: StateMachineTest.IdleToActive
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.IdleToActive" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.IdleToActive" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.IdleToActive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.IdleToActive
+10:28:58.289 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.290 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.290 [INFO ] [SM] Transition: IDLE --[START]--> ACTIVE
+[       OK ] StateMachineTest.IdleToActive (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.IdleToActive" end time: Apr 07 10:28 CEST
+"StateMachineTest.IdleToActive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/28 Testing: StateMachineTest.ActiveToIdle
+18/28 Test: StateMachineTest.ActiveToIdle
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.ActiveToIdle" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.ActiveToIdle" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.ActiveToIdle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.ActiveToIdle
+10:28:58.315 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.316 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.316 [INFO ] [SM] Transition: IDLE --[START]--> ACTIVE
+10:28:58.316 [INFO ] [SM] Transition: ACTIVE --[STOP]--> IDLE
+[       OK ] StateMachineTest.ActiveToIdle (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.ActiveToIdle" end time: Apr 07 10:28 CEST
+"StateMachineTest.ActiveToIdle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/28 Testing: StateMachineTest.IdleToSleep
+19/28 Test: StateMachineTest.IdleToSleep
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.IdleToSleep" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.IdleToSleep" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.IdleToSleep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.IdleToSleep
+10:28:58.341 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.341 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.341 [INFO ] [SM] Transition: IDLE --[SLEEP_REQUEST]--> SLEEP
+[       OK ] StateMachineTest.IdleToSleep (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.IdleToSleep" end time: Apr 07 10:28 CEST
+"StateMachineTest.IdleToSleep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/28 Testing: StateMachineTest.SleepToIdle
+20/28 Test: StateMachineTest.SleepToIdle
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.SleepToIdle" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.SleepToIdle" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.SleepToIdle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.SleepToIdle
+10:28:58.367 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.368 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.368 [INFO ] [SM] Transition: IDLE --[SLEEP_REQUEST]--> SLEEP
+10:28:58.368 [INFO ] [SM] Transition: SLEEP --[WAKE]--> IDLE
+[       OK ] StateMachineTest.SleepToIdle (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.SleepToIdle" end time: Apr 07 10:28 CEST
+"StateMachineTest.SleepToIdle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/28 Testing: StateMachineTest.FullCycle
+21/28 Test: StateMachineTest.FullCycle
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.FullCycle" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.FullCycle" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.FullCycle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.FullCycle
+10:28:58.393 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.394 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.394 [INFO ] [SM] Transition: IDLE --[START]--> ACTIVE
+10:28:58.394 [INFO ] [SM] Transition: ACTIVE --[STOP]--> IDLE
+10:28:58.394 [INFO ] [SM] Transition: IDLE --[SLEEP_REQUEST]--> SLEEP
+10:28:58.394 [INFO ] [SM] Transition: SLEEP --[WAKE]--> IDLE
+10:28:58.394 [INFO ] [SM] Transition: IDLE --[START]--> ACTIVE
+[       OK ] StateMachineTest.FullCycle (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.FullCycle" end time: Apr 07 10:28 CEST
+"StateMachineTest.FullCycle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/28 Testing: StateMachineTest.ActiveToError
+22/28 Test: StateMachineTest.ActiveToError
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.ActiveToError" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.ActiveToError" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.ActiveToError
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.ActiveToError
+10:28:58.419 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.420 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.420 [INFO ] [SM] Transition: IDLE --[START]--> ACTIVE
+10:28:58.420 [INFO ] [SM] Transition: ACTIVE --[FAULT]--> ERROR
+[       OK ] StateMachineTest.ActiveToError (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.ActiveToError" end time: Apr 07 10:28 CEST
+"StateMachineTest.ActiveToError" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/28 Testing: StateMachineTest.ErrorRecovery
+23/28 Test: StateMachineTest.ErrorRecovery
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.ErrorRecovery" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.ErrorRecovery" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.ErrorRecovery
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.ErrorRecovery
+10:28:58.445 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.446 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.446 [INFO ] [SM] Transition: IDLE --[START]--> ACTIVE
+10:28:58.446 [INFO ] [SM] Transition: ACTIVE --[FAULT]--> ERROR
+10:28:58.446 [INFO ] [SM] Transition: ERROR --[RECOVER]--> IDLE
+[       OK ] StateMachineTest.ErrorRecovery (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.ErrorRecovery" end time: Apr 07 10:28 CEST
+"StateMachineTest.ErrorRecovery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/28 Testing: StateMachineTest.FaultFromIdle
+24/28 Test: StateMachineTest.FaultFromIdle
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.FaultFromIdle" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.FaultFromIdle" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.FaultFromIdle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.FaultFromIdle
+10:28:58.472 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.473 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.473 [INFO ] [SM] Transition: IDLE --[FAULT]--> ERROR
+[       OK ] StateMachineTest.FaultFromIdle (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.FaultFromIdle" end time: Apr 07 10:28 CEST
+"StateMachineTest.FaultFromIdle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/28 Testing: StateMachineTest.CannotStartFromBoot
+25/28 Test: StateMachineTest.CannotStartFromBoot
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.CannotStartFromBoot" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.CannotStartFromBoot" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.CannotStartFromBoot
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.CannotStartFromBoot
+10:28:58.498 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.499 [WARN ] [SM] Invalid transition: BOOT --[START]--> ???
+[       OK ] StateMachineTest.CannotStartFromBoot (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.CannotStartFromBoot" end time: Apr 07 10:28 CEST
+"StateMachineTest.CannotStartFromBoot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/28 Testing: StateMachineTest.CannotStopFromIdle
+26/28 Test: StateMachineTest.CannotStopFromIdle
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.CannotStopFromIdle" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.CannotStopFromIdle" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.CannotStopFromIdle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.CannotStopFromIdle
+10:28:58.523 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.524 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.524 [WARN ] [SM] Invalid transition: IDLE --[STOP]--> ???
+[       OK ] StateMachineTest.CannotStopFromIdle (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.CannotStopFromIdle" end time: Apr 07 10:28 CEST
+"StateMachineTest.CannotStopFromIdle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/28 Testing: StateMachineTest.CannotRecoverFromActive
+27/28 Test: StateMachineTest.CannotRecoverFromActive
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.CannotRecoverFromActive" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.CannotRecoverFromActive" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.CannotRecoverFromActive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.CannotRecoverFromActive
+10:28:58.549 [INFO ] [SM] State machine initialized in BOOT state
+10:28:58.550 [INFO ] [SM] Transition: BOOT --[BOOT_COMPLETE]--> IDLE
+10:28:58.550 [INFO ] [SM] Transition: IDLE --[START]--> ACTIVE
+10:28:58.550 [WARN ] [SM] Invalid transition: ACTIVE --[RECOVER]--> ???
+[       OK ] StateMachineTest.CannotRecoverFromActive (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.CannotRecoverFromActive" end time: Apr 07 10:28 CEST
+"StateMachineTest.CannotRecoverFromActive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/28 Testing: StateMachineTest.StateNameReturnsCorrectStrings
+28/28 Test: StateMachineTest.StateNameReturnsCorrectStrings
+Command: "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests" "--gtest_filter=StateMachineTest.StateNameReturnsCorrectStrings" "--gtest_also_run_disabled_tests"
+Directory: /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build
+"StateMachineTest.StateNameReturnsCorrectStrings" start time: Apr 07 10:28 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StateMachineTest.StateNameReturnsCorrectStrings
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StateMachineTest
+[ RUN      ] StateMachineTest.StateNameReturnsCorrectStrings
+[       OK ] StateMachineTest.StateNameReturnsCorrectStrings (0 ms)
+[----------] 1 test from StateMachineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StateMachineTest.StateNameReturnsCorrectStrings" end time: Apr 07 10:28 CEST
+"StateMachineTest.StateNameReturnsCorrectStrings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 07 10:28 CEST

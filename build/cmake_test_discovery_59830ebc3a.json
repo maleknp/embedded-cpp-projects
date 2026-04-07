@@ -1,0 +1,164 @@
+{
+  "tests": 28,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "CRC16Test",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "EmptyData",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_crc.cpp",
+          "line": 9
+        },
+        {
+          "name": "StandardTestVector",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_crc.cpp",
+          "line": 16
+        },
+        {
+          "name": "SingleByte",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_crc.cpp",
+          "line": 23
+        },
+        {
+          "name": "AllOnes",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_crc.cpp",
+          "line": 31
+        },
+        {
+          "name": "PointerInterface",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_crc.cpp",
+          "line": 39
+        },
+        {
+          "name": "DifferentDataDifferentCRC",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_crc.cpp",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "name": "PacketTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "EncodeDecodeRoundtrip_NoPayload",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 10
+        },
+        {
+          "name": "EncodeDecodeRoundtrip_WithPayload",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 24
+        },
+        {
+          "name": "DecodeFailsOnTooShortFrame",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 43
+        },
+        {
+          "name": "DecodeFailsOnInvalidHeader",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 49
+        },
+        {
+          "name": "DecodeFailsOnCRCMismatch",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 55
+        },
+        {
+          "name": "DecodeFailsOnDataCorruption",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 68
+        },
+        {
+          "name": "EncodedFrameHasCorrectHeader",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 84
+        },
+        {
+          "name": "CommandNameReturnsCorrectStrings",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_packet.cpp",
+          "line": 97
+        }
+      ]
+    },
+    {
+      "name": "StateMachineTest",
+      "tests": 14,
+      "testsuite": [
+        {
+          "name": "StartsInBootState",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 8
+        },
+        {
+          "name": "BootToIdle",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 13
+        },
+        {
+          "name": "IdleToActive",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 19
+        },
+        {
+          "name": "ActiveToIdle",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 26
+        },
+        {
+          "name": "IdleToSleep",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 34
+        },
+        {
+          "name": "SleepToIdle",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 41
+        },
+        {
+          "name": "FullCycle",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 49
+        },
+        {
+          "name": "ActiveToError",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 62
+        },
+        {
+          "name": "ErrorRecovery",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 70
+        },
+        {
+          "name": "FaultFromIdle",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 79
+        },
+        {
+          "name": "CannotStartFromBoot",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 88
+        },
+        {
+          "name": "CannotStopFromIdle",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 94
+        },
+        {
+          "name": "CannotRecoverFromActive",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 101
+        },
+        {
+          "name": "StateNameReturnsCorrectStrings",
+          "file": "\/Users\/maleknapoli\/.gemini\/antigravity\/scratch\/Embedded Telemetry Device Simulator\/tests\/test_state_machine.cpp",
+          "line": 111
+        }
+      ]
+    }
+  ]
+}

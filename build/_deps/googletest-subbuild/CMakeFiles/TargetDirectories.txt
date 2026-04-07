@@ -1,0 +1,3 @@
+/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

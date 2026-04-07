@@ -1,0 +1,5 @@
+if(EXISTS "/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests[1]_tests.cmake")
+  include("/Users/maleknapoli/.gemini/antigravity/scratch/Embedded Telemetry Device Simulator/build/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()
